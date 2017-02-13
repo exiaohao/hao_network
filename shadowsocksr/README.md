@@ -61,3 +61,4 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/xu9010/shadowso
 # 参考
 https://www.91yun.org/archives/2079
 ShadowsocksR 协议插件文档 https://github.com/breakwa11/shadowsocks-rss/blob/master/ssr.md
+
