@@ -1,0 +1,20 @@
+version: '2'
+services:
+  service:
+    build: .
+    command: ["gunicorn", "server:__hug_wsgi__", "-k", "gevent", "--bind", "0.0.0.0:8000"]
+    volumes:
+      - .:/code
+    ports:
+      - "8000:8000"
+    networks:
+      - ddns
+
+networks:
+  ddns:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.30.216.0/24
+          gateway: 172.30.216.1
