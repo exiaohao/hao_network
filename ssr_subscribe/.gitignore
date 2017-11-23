@@ -89,3 +89,4 @@ ENV/
 .ropeproject
 
 config.yaml
+subscribes.yaml

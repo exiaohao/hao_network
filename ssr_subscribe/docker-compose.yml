@@ -1,6 +1,6 @@
 version: '2'
 services:
-  ddns_service:
+  service:
     build: .
     command: ["gunicorn", "server:__hug_wsgi__", "-k", "gevent", "--bind", "0.0.0.0:8000"]
     volumes:
