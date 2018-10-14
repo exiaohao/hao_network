@@ -13,8 +13,8 @@ apt-get install -y build-essential pkg-config libgnutls28-dev libreadline-dev li
 
 #### CentOS
 ```bash
-yum install epel-release
-yum install ocserv
+yum install epel-release -y
+yum install ocserv -y
 ```
 
 ## Configuration
@@ -62,7 +62,12 @@ Save certificates and keys to `/etc/ocserv/ssl` (Or other path what you have con
 
 ### Install ocserv
 
-Download newest ocserv package
+Download newest ocserv package from
+```
+ftp://ftp.infradead.org/pub/ocserv
 ```
 
+CentOS
+```
+yum install ocserv -y
 ```
