@@ -20,7 +20,7 @@ yum install -y gnutls gnutls-utils gnutls-devel readline readline-devel \
     gcc pcre-devel openssl openssl-devel curl-devel \
     freeradius-client-devel freeradius-client lz4-devel lz4 \
     http-parser-devel http-parser protobuf-c-devel protobuf-c \
-    pcllib-devel pcllib cyrus-sasl-gssapi dbus-devel policycoreutils gperf
+    pcllib-devel pcllib cyrus-sasl-gssapi dbus-devel policycoreutils gperf libev-devel
 ```
 
 ## Configuration
