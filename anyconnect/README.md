@@ -13,8 +13,14 @@ apt-get install -y build-essential pkg-config libgnutls28-dev libreadline-dev li
 
 #### CentOS
 ```bash
-yum install epel-release -y
-yum install ocserv -y
+yum install -y gnutls gnutls-utils gnutls-devel readline readline-devel \
+    libnl-devel libtalloc libtalloc-devel libnl3-devel wget \
+    pam pam-devel libtalloc-devel xz libseccomp-devel \
+    tcp_wrappers-devel autogen autogen-libopts-devel tar \
+    gcc pcre-devel openssl openssl-devel curl-devel \
+    freeradius-client-devel freeradius-client lz4-devel lz4 \
+    http-parser-devel http-parser protobuf-c-devel protobuf-c \
+    pcllib-devel pcllib cyrus-sasl-gssapi dbus-devel policycoreutils gperf
 ```
 
 ## Configuration
