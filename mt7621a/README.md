@@ -7,7 +7,7 @@
 
 - 去 http://www.miwifi.com/miwifi_download.html 下载最新的 R3G 开发版, 更新系统到开发版本;
 - 用手机 APP 绑定小米路由器到你的小米账号, 使用路由器打开 https://d.miwifi.com/rom/ssh 放弃保修并**获取 root 密码**, 下载 `minifi_ssh.bin`, 拷入 FAT/FAT32 格式化后的优盘; 重启路由器 📎捅屁屁到闪。此操作官方有说。
-- 优盘装入 breed (可选, 回头 scp 传入也可)
+- 优盘装入 [breed](https://breed.hackpascal.net/) (可选, 回头 scp 传入也可)
 
 ### 登录 SSH 权限和基本操作
 ```bash
